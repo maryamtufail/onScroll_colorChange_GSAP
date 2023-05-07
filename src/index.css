@@ -1,0 +1,24 @@
+@layer base {
+    body{
+        @apply font-[poppins]
+    }
+
+    section {
+        @apply lg:px-40 w-full font-[600] px-4
+    }
+
+    img {
+        @apply lg:m-24 rounded-[2rem] shadow-xl  h-[40rem] my-2
+    }
+
+    h2 {
+       @apply lg:text-4xl text-3xl w-full lg:p-40 p-2
+    }
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
